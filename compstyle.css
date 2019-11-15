@@ -1,0 +1,72 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+body{
+    background:#eee;
+}
+
+.wrapper{
+    width: 100%;  
+    margin: 0 auto;
+   
+ }
+
+nav{
+    background: cadetblue;
+    
+}
+
+nav li{
+    list-style-type: none;
+    padding: 5px;
+ }
+
+
+
+
+nav ul{
+    display: flex
+}
+
+nav li{
+    flex: 1 1 0;
+    text-transform: uppercase;
+    text-decoration:none;
+}
+
+nav h3{
+    padding: 10px;
+   text-align: center;
+    color: gold;
+  
+}
+
+.btn {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 6px 30px;
+    width: 250px;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: cornflowerblue;
+  }
+  
+  .btn:hover {
+    background-color:yellow;
+    color: crimson;
+    
+    
+  }
+
+  form{
+   
+     margin: 20px;
+     
+
+  }
